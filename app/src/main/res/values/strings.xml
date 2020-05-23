@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="openResourses">Выберите ресурс, который хотите исключить из отображения</string>
+    <string name="tutby">tut.by</string>
+    <string name="onlinerby">onliner.by</string>
+    <string name="beltaby">belta.by</string>
+    <string name="tvrby">telegraf.by</string>
+    <string name="navinyby">naviny.by</string>
+    <string name="minsknewsby">minsknews.by</string>
+    <string name="sputnikby">sputnik.by</string>
+    <string name="telegrafby">telegraf.by</string>
+</resources>

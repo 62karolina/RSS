@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/navinby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navinyby"
+            />
+        <Button
+            android:id="@+id/minsknewsby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minsknewsby"
+            />
+        <Button
+            android:id="@+id/sputnikby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sputnikby"
+            />
+        <Button
+            android:id="@+id/telegrafby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telegrafby"
+            />
+    </TableRow>
+
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
